@@ -1,9 +1,4 @@
-<?php
-	header();
-  get_template_part('sidebar','right');
-?>
-  
-  <div class="content">
+<div class="content">
     <h1>Instructions</h1>
     <p>Be aware that the CSS for these layouts is heavily commented. If you do most of your work in Design view, have a peek at the code to get tips on working with the CSS for the fixed layouts. You can remove these comments before you launch your site. To learn more about the techniques used in these CSS Layouts, read this article at Adobe's Developer Center - <a href="http://www.adobe.com/go/adc_css_layouts">http://www.adobe.com/go/adc_css_layouts</a>.</p>
     <h2>Clearing Method</h2>
@@ -13,13 +8,3 @@
     <p> Be aware that if you use the Property inspector to navigate to your logo image using the SRC field (instead of removing and replacing the placeholder), you should remove the inline background and display properties. These inline styles are only used to make the logo placeholder show up in browsers for demonstration purposes. </p>
     <p>To remove the inline styles, make sure your CSS Styles panel is set to Current. Select the image, and in the Properties pane of the CSS Styles panel, right click and delete the display and background properties. (Of course, you can always go directly into the code and delete the inline styles from the image or placeholder there.)</p>
     <!-- end .content --></div>
-  <div class="sidebar2">
-    <h4>Backgrounds</h4>
-    <p>By nature, the background color on any div will only show for the length of the content. If you'd like a dividing line instead of a color, place a border on the side of the .content div (but only if it will always contain more content).</p>
-    <!-- end .sidebar2 --></div>
-  <div class="footer">
-    <p>This .footer contains the declaration position:relative; to give Internet Explorer 6 hasLayout for the .footer and cause it to clear correctly. If you're not required to support IE6, you may remove it.</p>
-    <!-- end .footer --></div>
-  <!-- end .container --></div>
-</body>
-</html>
